@@ -1,2 +1,2 @@
-FROM node:18-alpine
-WORKDIR /ws
+FROM node:20-alpine
+WORKDIR /sandbox

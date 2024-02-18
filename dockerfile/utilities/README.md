@@ -7,7 +7,7 @@ This docker image contains the following utilities:
 ## Usage
 ### File comparison
 ```shell
-podman run \
+docker run \
 --rm \
 -v $path_to_workspace_folder:/ws \
 ghcr.io/empty21/sandbox/utils \

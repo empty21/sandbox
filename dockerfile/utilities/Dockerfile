@@ -1,4 +1,4 @@
-FROM ghcr.io/empty21/sandbox/c AS build
+FROM quay.io/stupd/sandbox/c AS build
 WORKDIR /usr/src
 COPY src/ .
 RUN mkdir out

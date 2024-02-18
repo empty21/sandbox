@@ -1,3 +1,3 @@
 FROM alpine
-WORKDIR /ws
+WORKDIR /sandbox
 RUN apk add --no-cache musl-dev gcc

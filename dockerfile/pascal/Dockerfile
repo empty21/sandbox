@@ -1,5 +1,5 @@
 FROM alpine
-WORKDIR /ws
+WORKDIR /sandbox
 RUN apk add --no-cache gcc g++ musl-dev
 
 ENV FPC_VERSION="3.2.2" \
